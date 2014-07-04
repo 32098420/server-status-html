@@ -4,7 +4,7 @@
 	<script language="JavaScript"><!--
 	  function refreshIt() {
 	    if (!document.images) return;
-	      document.images['myCam'].src = 'swt.png';
+	      document.images['status'].src = 'images/offline.png';
 	      setTimeout('refreshIt()',50); // refresh every 50ms
 	 }
 	  //-->
@@ -14,7 +14,7 @@
 
 <body onLoad=" setTimeout('refreshIt()',50)">
 
-<img src="http://localhost:8080/online.png" alt="status" onerror="this.src='images/offline.png'" />
+<img name="status" src="http://localhost:8080/online.png" alt="status" onerror="this.src='images/offline.png'" />
 
 </body>
 </html>
