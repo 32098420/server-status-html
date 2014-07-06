@@ -1,29 +1,46 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<!--Script Being Tested -->
-<!--Code will look like a mess until I'm finished than I'll give the status a better look to. -->
 <head>
-	
-	<script language="JavaScript"><!--
+
+<div class="l1">
+<p>Server Status:</p>
+</div>
+</head>
+
+<body onLoad=" setTimeout('refreshIt()',50)">
+<div class="l2">
+<img name="status" src="http://localhost:8080/online.png" alt="status" onerror="this.src='images/offline.png'" />
+</div>
+
+<div align="left"><A style="color:#0A0E66" HREF="javascript:history.go(0)">Refresh</A></div>
+</body>
+
+<style type="text/css">
+.l1 {
+    background-color:#000080;
+    color:#ffffff;
+    font-weight:bold;
+    padding: 6px 10px;
+    width:500px;
+}
+</style>
+<style type="text/css">
+.l2 {
+    background-color:#EAEEF0;
+    color:#ffffff;
+    font-weight:bold;
+    padding: 6px 10px;
+    width:500px;
+}
+</style>
+	<script language="JavaScript">
 	  function refreshIt() {
 	    if (!document.images) return;
 	      document.images['status'].src = 'http://localhost:8080/online.png';
 	      setTimeout('refreshIt()',50); // refresh every 50ms
 	 }
-	  //-->
-	  </script>
 	  
-<p>Server Status:</p>
-
-</head>
-
-<body onLoad=" setTimeout('refreshIt()',50)">
-
-<img name="status" src="http://localhost:8080/online.png" alt="status" onerror="this.src='images/offline.png'" />
-
-<div align="left"><A style="color:#0A0E66" HREF="javascript:history.go(0)">Refresh</A></div>
-
-</body>
+	  </script>
 
 
 </html>
