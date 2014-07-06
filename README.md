@@ -12,5 +12,7 @@ I will work on making a improved script soon after this is finished.
 
 ## To do
 *Cache refreshing*
+
 *Cleanup the html*
+
 *Improve looks for awesomeness*
