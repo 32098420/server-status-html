@@ -11,6 +11,6 @@ It's not finished and not ready to use, but will be sometime soon.
 I will work on making a improved script soon after this is finished.
 
 ## To do
-Cache refreshing
-Cleanup the html
-Improve looks for awesomeness
+*Cache refreshing*
+*Cleanup the html*
+*Improve looks for awesomeness*
