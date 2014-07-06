@@ -6,7 +6,7 @@ Simply put the online img file on you're server from a public web folder, and ch
 to the img.
 
 ## Notes
-This is not quite finished, however kind of works.
+It's not finished and not ready to use, but will be sometime soon.
 
 ## To do
 Cache refreshing
