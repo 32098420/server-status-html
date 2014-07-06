@@ -1,7 +1,7 @@
 server-status-html
 ==================
 ## Embed with iFrame
-~~<iframe src="http://example.com/serverstatus/status.html"></iframe>~~
+`<iframe src="http://example.com/serverstatus/status.html"></iframe>`
 
 ## Setup
 Simply put the online img file on you're server from a public web folder, and change the URL(s) in the main code to point
