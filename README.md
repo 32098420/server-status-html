@@ -8,6 +8,7 @@ Simply put the online img file on you're server from a public web folder, and ch
 
 ## Notes
 It's not finished and not ready to use, but will be sometime soon.
+I will work on making a improved script soon after this is finished.
 
 ## To do
 Cache refreshing
